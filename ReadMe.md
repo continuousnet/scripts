@@ -6,16 +6,16 @@ Popular Links:
 
 # System Debloat One-Liner
 
-    curl -L cleanup.umbrellaitgroup.com -o cleanup.cmd && cleanup.cmd
+    curl -L cleanup.continuous.net -o cleanup.cmd && cleanup.cmd
 
 # Windows Update Reset 
 
-    curl -L wureset.umbrellaitgroup.com -o WUReset-Unattented.cmd && WUReset-Unattented.cmd
+    curl -L wureset.continuous.net -o WUReset-Unattented.cmd && WUReset-Unattented.cmd
 
 # Search and Destroy anything to do with Solarwinds (N-Able)
 
-    curl -L swnuke.umbrellaitgroup.com -o swnuke.cmd && swnuke.cmd
+    curl -L swnuke.continuous.net -o swnuke.cmd && swnuke.cmd
 
 # Gather Windoes Logs and Generate a CSV Timeline
 
-    curl -L gatherlogs.umbrellaitgroup.com -o Gather-Logs.cmd && Gather-Logs.cmd
+    curl -L gatherlogs.continuous.net -o Gather-Logs.cmd && Gather-Logs.cmd
