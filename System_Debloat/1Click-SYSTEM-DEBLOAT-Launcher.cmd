@@ -23,18 +23,18 @@
     exit
 
 
-:: Download Required Files from https://github.com/Exploitacious/Windows_Toolz/tree/main/Windows%2BServer/System_Debloat
+:: Download Required Files from https://github.com/continuousnet/scripts/tree/main/System_Debloat
 :Download
 
     PowerShell -Command "mkdir C:\Temp\Cleanup -erroraction silentlycontinue"
     
     cd "C:\Temp\Cleanup"
 
-    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Exploitacious/Windows_Toolz/main/System_Debloat/SYSTEM-Debloat-MAIN.ps1', 'SYSTEM-Debloat-MAIN.ps1')"
+    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/continuousnet/scripts/tree/main/System_Debloat/SYSTEM-Debloat-MAIN.ps1', 'SYSTEM-Debloat-MAIN.ps1')"
 
-    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Exploitacious/Windows_Toolz/main/System_Debloat/DebloatScript-HKCU.ps1', 'DebloatScript-HKCU.ps1')"
+    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/continuousnet/scripts/main/System_Debloat/DebloatScript-HKCU.ps1', 'DebloatScript-HKCU.ps1')"
     
-    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Exploitacious/Windows_Toolz/main/System_Debloat/FirstLogon.bat', 'FirstLogon.bat')"
+    PowerShell -executionpolicy bypass -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/continuousnet/scripts/main/System_Debloat/FirstLogon.bat', 'FirstLogon.bat')"
 
 
 
