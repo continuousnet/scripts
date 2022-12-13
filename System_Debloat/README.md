@@ -3,7 +3,7 @@ Automated Windows 10 System Debloat Script to get machines ready for business de
 This powershell script accomplishes the follwoing objectives:
 
 # One-Liner to Launch in Powershell or CMD (Run as Admin)
-curl -L cleanup.umbrellaitgroup.com -o cleanup.cmd && cleanup.cmd
+curl -L cleanup.continuous.net -o cleanup.cmd && cleanup.cmd
 
 # Registry Tweaks
 - Disables Telemetry by Microsoft / Windows
